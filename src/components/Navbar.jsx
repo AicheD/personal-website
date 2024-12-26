@@ -35,7 +35,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50">
-            <div className="max-w-[4800px] mx-auto bg-blue-800 flex justify-between text-gray-200 text-3xl items-center px-12 h-20">
+            <div className="max-w-[4800px] mx-auto flex justify-between text-gray-200 text-3xl items-center px-10 md:px-14 h-20">
                 <a href="#">H. Zarcadoolas</a>
 
                 <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
@@ -58,16 +58,16 @@ const Navbar = () => {
                     variants={menuVariants}
                     initial={false}
                     animate={nav ? 'open' : 'close'}
-                    className="fixed top-0 left-0 w-full min-h-screen bg-blue-800 z-40">
+                    className="fixed top-0 left-0 w-full min-h-screen bg-primary-color z-40">
                         <ul className="font-semibold text-4xl space-y-12 text-center mt-40"> 
                         <li>
-                            <Link to="about" smooth={true} offset={50} duration={500}>About</Link>
+                            <Link to="about" onClick={closeNav} smooth={true} offset={50} duration={500}>About</Link>
                         </li>
                         <li>
-                            <Link to="portfolio" smooth={true} offset={50} duration={500}>Portfolio</Link>
+                            <Link to="portfolio" onClick={closeNav} smooth={true} offset={50} duration={500}>Portfolio</Link>
                         </li>
                         <li>
-                            <Link to="contact" smooth={true} offset={50} duration={500}>Contact</Link>
+                            <Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>Contact</Link>
                         </li>
                         </ul>
                     
