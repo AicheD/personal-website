@@ -4,7 +4,7 @@ Welcome to the repo for my personal resume website. This project is designed to 
 
 ## Technologies Used
 
+- React
+- JavaScript
 - HTML
 - CSS
-- JavaScript
-- React
