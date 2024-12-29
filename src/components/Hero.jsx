@@ -64,11 +64,11 @@ return (
                             >
                                 <motion.a 
                                     whileHover={{ scale: 1.1, boxShadow: '0 0 8px rgba(0, 0, 0, 0.3)' }}
-                                    href={resume} 
-                                    download="RESUME.pdf"
+                                    href="https://drive.google.com/file/d/10T5aUhGZEfybTVbI0SWgjqEFeb9P1oGE/view?usp=sharing" 
+                                    target="_blank"
                                     className='z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-blue-400 rounded-xl'
                                 >
-                                    Download resume
+                                    View resume
                                 </motion.a>
 
                             <div className='flex gap-6 flex-row text-4xl md:text-6xl text-blue-400 z-20'>
