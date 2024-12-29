@@ -7,7 +7,6 @@ import {
     AiOutlineLinkedin,
 } from 'react-icons/ai';
 import { motion } from 'framer-motion';
-import resume from '../assets/RESUME.pdf';
 
 const Hero = () => {
 return (
@@ -38,7 +37,7 @@ return (
                             initial={{ opacity: 0}}
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1, delay: 0.5 }}
+                            transition={{ duration: 1, delay: 0.2 }}
                             className='text-gray-200 md:text-7xl text-5xl tracking-tight mb-4'
                             >
                                     Hello, I'm
@@ -49,7 +48,7 @@ return (
                             initial={{ opacity: 0}}
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1, delay: 1 }}
+                            transition={{ duration: 1, delay: 0.7 }}
                             className='text-gray-300 md:text-2xl text-lg mb-6 max-w-[480px] md:max-w-[1200px]'
                             >
                                     I have a strong foundation in computer engineering from the <span className='font-semibold'>University of Florida</span>, complemented by experience in customer-facing roles and other practical experience. I'm involved on campus with helping proof-of-concept projects as part of UF's Dream Team Engineering with Shand's Hospital, and I helped found UF's new Swamp Rally Racing Team. Part-time, I also work in the Bar & Restaurant industry as a bartender with past experience in barbacking, shift leads, and security. I recognize how valuable each day is, so I push a little bit harder than the last in the hope I can grow to be a better person. In my free time, I love working out, playing basketball, music production, and spending time with friends and family. I find that I need to keep myself active, so I'm always eager to learn or take on something new.
@@ -59,7 +58,7 @@ return (
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1, delay: 1.0 }}
+                            transition={{ duration: 1, delay: 0.2 }}
                             className='flex flex-row items-center gap-6 my-4 md:mb-0 md:pt-8'
                             >
                                 <motion.a 
@@ -86,7 +85,7 @@ return (
                         initial={{ opacity: 0}}
                         whileInView={{ opacity: 1}}
                         viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 1.0 }}
+                        transition={{ duration: 1, delay: 0.4 }}
                         className='mt-3 md:mt-12 md:col-span-2' 
                     >
                         <p className='text-gray-300 md:text-2xl text-xl md:mb-4'>Core Technical Skills:</p>
@@ -107,7 +106,8 @@ return (
                         initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 1.2 }}
+                        transition={{ duration: 1, delay: 0.6
+                         }}
                      />
 
                     <div>

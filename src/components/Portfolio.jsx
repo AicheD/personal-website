@@ -86,7 +86,7 @@ const Portfolio = () => {
     initial={{ opacity: 0}}
                         whileInView={{ opacity: 1}}
                         viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 1 }}
+                        transition={{ duration: 1, delay: 0.2 }}
                         >
       <h2 className='text-4xl font-bold text-gray-200 mb-8 text-center' id="portfolio">Portfolio</h2>
       <div className='flex justify-center mb-8'>
