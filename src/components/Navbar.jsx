@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
-import { Link } from 'react-scroll'
-import { motion } from 'framer-motion'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { Link } from 'react-scroll';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(false);
 
     const toggleNav = () => {
-        setNav(!nav)
-    }
+        setNav(!nav);
+    };
 
     const closeNav = () => {
-        setNav(false)
-    }
+        setNav(false);
+    };
 
     const menuVariants = {
         open: {
@@ -31,7 +31,7 @@ const Navbar = () => {
                 damping: 15
             }
         }
-    }
+    };
 
     return (
         <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50">
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                 <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
                     <li>
-                        <Link to="about" smooth={true} offset={50} duration={500}>About</Link>
+                        <Link to="about" smooth={true} offset={-80} duration={500}>About</Link>
                     </li>
                     <li>
                         <Link to="portfolio" smooth={true} offset={50} duration={500}>Portfolio</Link>
@@ -61,13 +61,13 @@ const Navbar = () => {
                     className="fixed top-0 left-0 w-full min-h-screen bg-primary-color z-40">
                         <ul className="font-semibold text-4xl space-y-12 text-center mt-40"> 
                         <li>
-                            <Link to="about" onClick={closeNav} smooth={true} offset={50} duration={500}>About</Link>
+                            <Link to="about" onClick={closeNav} smooth={true} offset={-80} duration={500}>About</Link>
                         </li>
                         <li>
                             <Link to="portfolio" onClick={closeNav} smooth={true} offset={50} duration={500}>Portfolio</Link>
                         </li>
                         <li>
-                            <Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>Contact</Link>
+                            <Link to="contact" onClick={closeNav} smooth={true} offset={-80} duration={500}>Contact</Link>
                         </li>
                         </ul>
                     
@@ -76,7 +76,7 @@ const Navbar = () => {
             </div>
 
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
