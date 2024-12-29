@@ -22,8 +22,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('fake', formData);
-            // await axios.post('https://formspree.io/f/mbllyzjl', formData);
+            await axios.post('https://formspree.io/f/mbllyzjl', formData);
             setNotification({ message: 'Message sent successfully!', type: 'success' });
             setFormData({
                 name: '',

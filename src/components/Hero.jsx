@@ -7,6 +7,7 @@ import {
     AiOutlineLinkedin,
 } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import resume from '../assets/RESUME.pdf';
 
 const Hero = () => {
 return (
@@ -61,11 +62,14 @@ return (
                             transition={{ duration: 1, delay: 1.2 }}
                             className='flex flex-row items-center gap-6 my-4 md:mb-0 md:pt-8'
                             >
-                                <motion.button whileHover={{ scale: 1.1, boxShadow: '0 0 8px rgba(0, 0, 0, 0.3)' }}
-                                    className='z-10 cursor</div>-pointer font-bold text-gray-200 md:w-auto p-4 border border-blue-400 rounded-xl'
+                                <motion.a 
+                                    whileHover={{ scale: 1.1, boxShadow: '0 0 8px rgba(0, 0, 0, 0.3)' }}
+                                    href={resume} 
+                                    download="RESUME.pdf"
+                                    className='z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-blue-400 rounded-xl'
                                 >
                                     Download resume
-                                </motion.button>
+                                </motion.a>
 
                             <div className='flex gap-6 flex-row text-4xl md:text-6xl text-blue-400 z-20'>
                                 <motion.a whileHover={{ scale: 1.2}} href="https://github.com/AicheD" target="_blank" rel="noopener noreferrer">
