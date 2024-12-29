@@ -16,7 +16,7 @@ const projects = [
   {
     img: project4,
     title: "8-Instruction Elementary CPU",
-    description: "In this project I designed an elementary Central Processing Unit from a Read-Only Memory. I handled a 3-bit instruction field by means of RALU with state machine controller, Instruction Register, Program Counter, (and memory module to fetch instructions automatically) . UF Course: EEL3701",
+    description: "In this project I designed an elementary Central Processing Unit from a Read-Only Memory. I handled a 3-bit instruction field by means of RALU with state machine controller, Instruction Register, Program Counter (and memory module to fetch instructions automatically) . UF Course: EEL3701",
     links: {
       site: "https://docs.google.com/document/d/1YA0oBJSg0zlRtVzc56QF_4kGFHYPswR0/edit?usp=sharing&ouid=109705304558126172386&rtpof=true&sd=true"
     },
@@ -42,7 +42,7 @@ const projects = [
     title: "Air Embolism Detection Project",
     description: "The software developed was a proof-of-concept python executable designed to detect the presence of air bubbles in the blood and alert the user. I worked as part of UF's Dream Team Engineering with a team of 4 undergraduate students and medical professionals from Shand's Hospital Cardiothoracic Division. This project will be sent to Cincinnati Children’s Hospital in the near future for clinical testing.",
     links: {
-      github: "https://github.com/DreamTeamSE/Air-Embolism",
+
     },
   },
   {
@@ -74,7 +74,7 @@ const projects = [
     title: "Light and Sound Alzheimer's Research Project",
     description: "Starting of as a shadower in this project, I collaborated with a UF Dream Team Engineering team to develop a recording module that would record the light and sound environment of a patient's room. This data would be used to analyze the effects of light and sound on Alzheimer's patients. Arduino (C++) was mainly used as the environment of the project.",
     links: {
-      github: "https://github.com/DreamTeamSE/light-and-sound-project",
+      
     },
   },
 
