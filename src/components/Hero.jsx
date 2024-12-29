@@ -59,7 +59,7 @@ return (
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1, delay: 1.2 }}
+                            transition={{ duration: 1, delay: 1.0 }}
                             className='flex flex-row items-center gap-6 my-4 md:mb-0 md:pt-8'
                             >
                                 <motion.a 
@@ -86,7 +86,7 @@ return (
                         initial={{ opacity: 0}}
                         whileInView={{ opacity: 1}}
                         viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 2 }}
+                        transition={{ duration: 1, delay: 1.0 }}
                         className='mt-3 md:mt-12 md:col-span-2' 
                     >
                         <p className='text-gray-300 md:text-2xl text-xl md:mb-4'>Core Technical Skills:</p>
