@@ -51,7 +51,7 @@ return (
                             transition={{ duration: 1, delay: 0.7 }}
                             className='text-gray-300 md:text-2xl text-lg mb-6 max-w-[480px] md:max-w-[1200px]'
                             >
-                                    I have a strong foundation in computer engineering from the <span className='font-semibold'>University of Florida</span>, complemented by experience in customer-facing roles and other practical experience. On campus, I am involved in developing proof-of-concept projects as part of UF's Dream Team Engineering with Shand's Hospital and helped found UF's new Swamp Rally Racing Team. Part-time, I also work in the Bar & Restaurant industry as a bartender with experience in barbacking, shift leads, and security. I recognize how valuable each day is, so I push a little bit harder than the last in the hope I can grow to be a better person. In my free time, I love working out, playing basketball, music production, and spending time with friends and family. I need to keep myself active, so I'm always eager to learn or take on something new.
+                                    I have a strong foundation in computer engineering from the <span className='font-semibold'>University of Florida</span>, complemented by experience in customer-facing roles and other practical experience. On campus, I am involved in developing proof-of-concept projects as part of UF's Dream Team Engineering with Shand's Hospital and helped found UF's new Swamp Rally Racing Team. Part-time, I also work in the Bar & Restaurant industry as a bartender with experience in barbacking, shift leads, and security. I'm always trying to push a little bit harder each day in the hope I can grow to be a better person and test my limits. In my free time, I'll probably be working out, playing basketball, doing music production, or spending time with friends and family. That, or I'm working on my next idea.
                             </motion.p>
 
                             <motion.div
@@ -90,11 +90,12 @@ return (
                     >
                         <p className='text-gray-300 md:text-2xl text-xl md:mb-4'>Core Technical Skills:</p>
                         <ul className='list-disc list-inside text-gray-300 md:text-xl text-lg md:flex md:flex-wrap md:gap-x-16 md:gap-y-2'>
-                            <li>Object-Oriented Programming (Python, C++)</li>
-                            <li>Machine Learning Applications for Data Science</li>
-                            <li>Digital Logic</li>
-                            <li>Microprocessor Applications</li>
                             <li>Embedded Systems</li>
+                            <li>Object-Oriented Programming (Python, C++)</li>
+                            <li>Digital Logic</li>
+                            <li>Machine Learning Applications for Data Science</li>
+                            <li>Microprocessor Applications</li>
+                            
                         </ul>
                     </motion.div>
 
