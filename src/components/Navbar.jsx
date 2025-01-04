@@ -35,7 +35,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50">
-            <div className="max-w-[4800px] mx-auto flex justify-between text-gray-200 text-3xl items-center px-10 md:px-14 h-20">
+            <div className="max-w-[4800px] mx-auto flex justify-between text-gray-200 text-2xl md:text-3xl items-center px-10 md:px-14 h-20">
                 <a href="#">H. Zarcadoolas</a>
 
                 <ul className="hidden md:flex gap-12 z-10 cursor-pointer">

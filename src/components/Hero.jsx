@@ -38,7 +38,7 @@ return (
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1, delay: 0.2 }}
-                            className='text-gray-200 md:text-7xl text-5xl tracking-tight mb-4'
+                            className='text-gray-200 md:text-7xl text-4xl tracking-tight mb-4'
                             >
                                     Hello, I'm
                                     <span className='bg-gradient-to-l from-orange-300 to-orange-500 bg-clip-text text-transparent'> Harry</span><span className='bg-gradient-to-l from-orange-300 to-orange-500 bg-clip-text text-transparent'> Zarcadoolas</span> 
@@ -49,7 +49,7 @@ return (
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1, delay: 0.7 }}
-                            className='text-gray-300 md:text-2xl text-lg mb-6 max-w-[480px] md:max-w-[1200px]'
+                            className='text-gray-300 md:text-2xl text-md mb-6 max-w-[480px] md:max-w-[1200px]'
                             >
                                     I have a strong foundation in computer engineering from the <span className='font-semibold'>University of Florida</span>, complemented by experience in customer-facing roles and other practical experience. On campus, I am involved in developing proof-of-concept projects as part of UF's Dream Team Engineering with Shand's Hospital and helped found UF's new Swamp Rally Racing Team. Part-time, I also work in the Bar & Restaurant industry as a bartender with experience in barbacking, shift leads, and security. I'm always trying to push a little bit harder each day in the hope I can grow to be a better person and test my limits. In my free time, I'll probably be working out, playing basketball, doing music production, or spending time with friends and family. That, or I'm working on my next idea.
                             </motion.p>
@@ -88,8 +88,8 @@ return (
                         transition={{ duration: 1, delay: 0.4 }}
                         className='mt-3 md:mt-12 md:col-span-2' 
                     >
-                        <p className='text-gray-300 md:text-2xl text-xl md:mb-4'>Core Technical Skills:</p>
-                        <ul className='list-disc list-inside text-gray-300 md:text-xl text-lg md:flex md:flex-wrap md:gap-x-16 md:gap-y-2'>
+                        <p className='text-gray-300 md:text-2xl text-lg md:mb-4'>Core Technical Skills:</p>
+                        <ul className='list-disc list-inside text-gray-300 md:text-xl text-md md:flex md:flex-wrap md:gap-x-16 md:gap-y-2'>
                             <li>Embedded Systems</li>
                             <li>Object-Oriented Programming (Python, C++)</li>
                             <li>Digital Logic</li>
